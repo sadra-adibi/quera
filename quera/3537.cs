@@ -11,17 +11,17 @@ namespace quera
         static void Main(string[] args)
         {
 
-                int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
 
-                Console.Write("W");
+            Console.Write("W");
 
-                for (int i = 0; i < n; i++)
-                {
-                    Console.Write("o");
-                }
-
-                Console.WriteLine("w!");
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("o");
             }
+
+            Console.WriteLine("w!");
+        }
 
 
 
