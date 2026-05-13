@@ -15,7 +15,8 @@ namespace quera
             int a = int.Parse(Console.ReadLine());
             int temp = 0;
 
-            for (int i = 1; i <= a; i++) {
+            for (int i = 1; i <= a; i++)
+            {
                 for (int j = 1; j <= a; j++)
                 {
                     temp = i * j;
@@ -23,7 +24,7 @@ namespace quera
 
 
                     Console.Write(temp);
-                    if (j  == a) { Console.Write("\n"); } else { Console.Write(" "); }
+                    if (j == a) { Console.Write("\n"); } else { Console.Write(" "); }
                 }
 
             }
