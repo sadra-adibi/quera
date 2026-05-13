@@ -18,13 +18,13 @@ namespace quera
             string[] b = a.Split(' ');
 
             int[] g = { 1, 1, 2, 2, 2, 8 };
-            
+
             for (int i = 0; i < 6; i++)
             {
                 int s = int.Parse(b[i]);
 
                 int temp = g[i] - s;
-                if (i<5)
+                if (i < 5)
                 {
                     Console.Write(temp + " ");
                 }
