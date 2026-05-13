@@ -19,13 +19,14 @@ namespace quera
             int sum = 0;
             for (int i = 1; i < a; i++)
             {
-                if (a%i== 0)
+                if (a % i == 0)
                 {
                     sum += i;
                 }
 
             }
-            if (sum == a ) { Console.WriteLine("YES"); } else
+            if (sum == a) { Console.WriteLine("YES"); }
+            else
             {
                 Console.WriteLine("NO");
             }
