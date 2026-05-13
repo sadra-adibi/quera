@@ -18,13 +18,13 @@ namespace quera
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int aa = 0;
-            int bb= 0;
+            int bb = 0;
             int aaa = a;
-            int bbb = b;    
+            int bbb = b;
 
             for (int i = 0; i < 3; i++)
             {
-                aa = (aa *10) + ( a % 10);
+                aa = (aa * 10) + (a % 10);
                 a = a / 10;
                 bb = (bb * 10) + (b % 10);
                 b = b / 10;
