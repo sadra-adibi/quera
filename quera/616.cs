@@ -17,13 +17,14 @@ namespace quera
 
             long a = long.Parse(Console.ReadLine());
             int i;
-            for (i = 2; i <= a; i = i*2) {
-                
+            for (i = 2; i <= a; i = i * 2)
+            {
+
 
             }
 
             Console.WriteLine(i);
-            
+
 
 
 
