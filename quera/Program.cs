@@ -16,18 +16,14 @@ namespace quera
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             int a = int.Parse(Console.ReadLine());
-            int sum = 0;
-            for (int i = 1; i < a; i++)
+            if (a%2 == 0)
             {
-                if (a%i== 0)
-                {
-                    sum += i;
-                }
-
+                Console.WriteLine("Bala Barare");
+                
             }
-            if (sum == a ) { Console.WriteLine("YES"); } else
+            else
             {
-                Console.WriteLine("NO");
+                Console.WriteLine("Payin Barare");
             }
 
 
@@ -52,5 +48,5 @@ namespace quera
     }
 }
 /*
-https://quera.org/problemset/282
+https://quera.org/problemset/10162
 */
