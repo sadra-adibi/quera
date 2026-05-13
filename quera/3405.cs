@@ -26,10 +26,10 @@ namespace quera
                 }
                 count++;
             }
-            
-            for (int i = count-1; i >= 0; i-- )
+
+            for (int i = count - 1; i >= 0; i--)
             {
-                Console.WriteLine(a[i] );
+                Console.WriteLine(a[i]);
             }
 
 
