@@ -19,11 +19,12 @@ namespace quera
             int b1 = int.Parse(b[0]);
             int b2 = int.Parse(b[1]);
             int b3 = 0;
-            if (b2 >10)
+            if (b2 > 10)
             {
                 Console.Write("Left ");
-                b3 =  b2 -9;
-            }else
+                b3 = b2 - 9;
+            }
+            else
             {
                 Console.Write("Right ");
                 b3 = b2;
@@ -32,7 +33,7 @@ namespace quera
             Console.Write(11 - b1 + " ");
             Console.WriteLine(b3);
 
-             
+
 
 
 
