@@ -18,7 +18,7 @@ namespace quera
             string[] b = a.Split(' ');
 
 
-            if (b[0]== b[2])
+            if (b[0] == b[2])
             {
                 Console.WriteLine("Vertical");
             }
