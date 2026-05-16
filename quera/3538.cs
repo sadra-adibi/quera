@@ -60,7 +60,7 @@ namespace quera
                     }
 
                 }
-                
+
             }
 
             if (!one_shanbe)
