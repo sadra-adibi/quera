@@ -16,8 +16,22 @@ namespace quera
         static void Main(string[] args)
         {
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            int a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Hello CodeCup " + a + "!");
+            string a = Console.ReadLine();
+            Console.WriteLine(a);
+            char[] aa = a.ToCharArray();
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = i; j >= 0; j--)
+                {
+                    aa[j] = aa[j + 1];
+
+                }
+                Console.WriteLine(aa);
+            }
+
+
+
+
 
 
 
