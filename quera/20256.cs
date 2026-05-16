@@ -26,7 +26,7 @@ namespace quera
                 if (a[i] == 'Y') { yellow++; }
                 if (a[i] == 'G') { green++; }
             }
-            if (red > 2 )
+            if (red > 2)
             {
                 Console.WriteLine("nakhor lite");
             }
@@ -54,8 +54,8 @@ namespace quera
 
 
                 }
-               
-               
+
+
             }
 
 
