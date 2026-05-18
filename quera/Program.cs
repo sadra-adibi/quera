@@ -16,21 +16,19 @@ namespace quera
         static void Main(string[] args)
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            string a = Console.ReadLine();
-            Console.WriteLine(a);
-            char[] aa = a.ToCharArray();
-            for (int i = 0; i < a.Length; i++)
+            string input = Console.ReadLine();
+
+            char[] input_to_char = input.ToCharArray();
+
+            for (int i = 0; i < input_to_char.Length; i++)
             {
-                for (int j = i; j >= 0; j--)
+                for (int j = 0; j <= i; j++)
                 {
-                    aa[j] = aa[j + 1];
-
+                    input_to_char[j] = input[i];
                 }
-                Console.WriteLine(aa);
+
+                Console.WriteLine(new string(input_to_char));
             }
-
-
-            
 
 
 
