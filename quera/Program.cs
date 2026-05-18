@@ -38,5 +38,5 @@ namespace quera
     }
 }
 /*
-https://quera.org/problemset/72874
+https://quera.org/problemset/3430
 */
