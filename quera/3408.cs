@@ -17,24 +17,24 @@ namespace quera
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-                int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
 
-                string[] words = Console.ReadLine().Split(' ');
+            string[] words = Console.ReadLine().Split(' ');
 
-                for (int i = n - 1; i >= 0; i--)
-                {
-                    Console.Write(words[i]);
+            for (int i = n - 1; i >= 0; i--)
+            {
+                Console.Write(words[i]);
 
-                    if (i > 0)
-                        Console.Write(" ");
-                    else
+                if (i > 0)
+                    Console.Write(" ");
+                else
                     Console.Write("\n");
-                }
+            }
 
 
 
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    }
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        }
     }
 }
 /*
