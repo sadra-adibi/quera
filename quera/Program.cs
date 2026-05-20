@@ -16,27 +16,34 @@ namespace quera
         static void Main(string[] args)
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            int weight = int.Parse(Console.ReadLine());
 
-                int n = int.Parse(Console.ReadLine());
+            float height = float.Parse(Console.ReadLine());
 
-                string[] words = Console.ReadLine().Split(' ');
+            float BMI = weight / (height * height);
 
-                for (int i = n - 1; i >= 0; i--)
-                {
-                    Console.Write(words[i]);
+            Console.WriteLine($"{BMI:F2}");
+            if (BMI < 18.5)
+            {
+                Console.WriteLine("Underweight");
+            }
+            else if (BMI < 25)
+            {
+                Console.WriteLine("Normal");
+            }
+            else if (BMI < 30)
+            {
+                Console.WriteLine("Overweight");
+            }
+            else
+            {
+                Console.WriteLine("Obese");
+            }
 
-                    if (i > 0)
-                        Console.Write(" ");
-                    else
-                    Console.Write("\n");
-                }
-
-
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    }
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        }
     }
 }
 /*
-https://quera.org/problemset/3408
+https://quera.org/problemset/3404
 */
