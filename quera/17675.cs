@@ -1,4 +1,12 @@
 ﻿using System;
+
+public class Class1
+{
+	public Class1()
+	{
+	}
+}
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -22,7 +30,7 @@ namespace quera
 
             for (int i = 1; i <= input_number; i++)
             {
-                if ( i == small_fibo )
+                if (i == small_fibo)
                 {
                     Console.Write("+");
                     int temp = small_fibo;
