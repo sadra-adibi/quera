@@ -16,52 +16,30 @@ namespace quera
         static void Main(string[] args)
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            int n = int.Parse(Console.ReadLine());
+            string[] input = Console.ReadLine().Split();
+            int n = int.Parse(input[0]);
+            int m = int.Parse(input[1]);
 
-            int middle = n / 2;
+            int count = 0;
 
             for (int i = 0; i < n; i++)
             {
-                int stars;
-                int spaces;
+                string line = Console.ReadLine();
 
-                if (i <= middle)
+                for (int j = 0; j < m; j++)
                 {
-                    stars = 1 + (i * 2);
+                    if (line[j] == '*')
+                    {
+                        count++;
+                    }
                 }
-                else
-                {
-                    stars = 1 + ((n - 1 - i) * 2);
-                }
-
-                spaces = (n - stars) / 2;
-
-                for (int j = 0; j < spaces; j++)
-                {
-                    Console.Write(" ");
-                }
-
-                for (int j = 0; j < stars; j++)
-                {
-                    Console.Write("*");
-                }
-
-                for (int j = 0; j < n - stars; j++)
-                {
-                    Console.Write(" ");
-                }
-
-                for (int j = 0; j < stars; j++)
-                {
-                    Console.Write("*");
-                }
-
-                Console.WriteLine();
             }
+
+            Console.WriteLine(count);
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         }
     }
 }
 /*
-https://quera.org/problemset/9773
+https://quera.org/problemset/6082
 */
