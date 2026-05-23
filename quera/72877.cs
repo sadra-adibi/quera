@@ -21,7 +21,7 @@ namespace quera
             string[] input = a.Split(' ');
 
             int ngosfand = int.Parse(input[0]);
-            double pashm= double.Parse(input[1]);
+            double pashm = double.Parse(input[1]);
             double price = double.Parse(input[2]);
             double totalPrice = pashm * price * ngosfand;
             Console.WriteLine(totalPrice);
