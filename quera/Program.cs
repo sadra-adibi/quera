@@ -16,46 +16,16 @@ namespace quera
         static void Main(string[] args)
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-
-            string result = "";
-
-            for (int i = a + 1; i < b; i++)
-            {
-                bool isPrime = true;
-
-                if (i < 2)
-                {
-                    isPrime = false;
-                }
-
-                for (int j = 2; j < i; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        isPrime = false;
-                        break;
-                    }
-                }
-
-                if (isPrime)
-                {
-                    result += i + ",";
-                }
-            }
-
-            if (result.Length > 0)
-            {
-                result = result.TrimEnd(',');
-            }
-
-            Console.WriteLine(result);
+            
+            int input= int.Parse(Console.ReadLine());
+            int ofogi = input/2;
+            int amodi = input - ofogi;
+            int max_parts = (ofogi+1) * (amodi+1);
+            Console.WriteLine(max_parts);
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         }
     }
 }
 /*
-https://quera.org/problemset/649
+https://quera.org/problemset/2637
 */
