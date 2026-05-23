@@ -22,7 +22,7 @@ namespace quera
             {
                 int laptop = int.Parse(Console.ReadLine());
                 int pc = int.Parse(Console.ReadLine());
-                if ( laptop > pc)
+                if (laptop > pc)
                 {
                     max_team += pc;
                 }
