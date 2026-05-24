@@ -24,7 +24,7 @@ namespace quera
             {
                 for (int j = i; j > 0; j--)
                 {
-                    if ( i % j == 0)
+                    if (i % j == 0)
                     {
                         counter++;
                         sum = sum + j;
