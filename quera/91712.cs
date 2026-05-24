@@ -23,7 +23,7 @@ namespace quera
             int sorakh = int.Parse(b[1]);
             for (int i = 0; i < 2; i++)
             {
-                if (mosh == sorakh && i == 0 ) { Console.Write("Saal Noo Mobarak!"); break; }
+                if (mosh == sorakh && i == 0) { Console.Write("Saal Noo Mobarak!"); break; }
                 if (mosh > sorakh) { Console.Write("L"); mosh--; }
                 if (mosh < sorakh) { Console.Write("R"); mosh++; }
             }
