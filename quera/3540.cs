@@ -50,7 +50,8 @@ namespace quera
             if (flag)
             {
                 Console.WriteLine(count_tol + " " + count_arz);
-            } else { Console.WriteLine("-1"); }
+            }
+            else { Console.WriteLine("-1"); }
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         }
     }
