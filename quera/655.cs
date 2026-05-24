@@ -32,17 +32,17 @@ namespace quera
 
 
 
-                        string first =
-                            words[j][0].ToString().ToUpper();
+                    string first =
+                        words[j][0].ToString().ToUpper();
 
-                        string rest = "";
+                    string rest = "";
 
-                        for (int k = 1; k < words[j].Length; k++)
-                        {
-                            rest += char.ToLower(words[j][k]);
-                        }
+                    for (int k = 1; k < words[j].Length; k++)
+                    {
+                        rest += char.ToLower(words[j][k]);
+                    }
 
-                        words[j] = first + rest;
+                    words[j] = first + rest;
 
 
 
