@@ -24,7 +24,7 @@ namespace quera
             int andaze_shishe = input_numbers_line_one[1];
             int sum = 0;
 
-            for (int i = 0; i < input_numbers_line_two.Length ; i++)
+            for (int i = 0; i < input_numbers_line_two.Length; i++)
             {
                 sum += input_numbers_line_two[i];
             }
