@@ -41,7 +41,7 @@ namespace quera
     }
 }
 /*
-https://quera.org/problemset/20249
+https://quera.org/problemset/3107
 
 cheat code:
 
