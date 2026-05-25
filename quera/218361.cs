@@ -23,7 +23,7 @@ namespace quera
             int counter = 0;
             for (int i = 0; i < input_numbers_line_one.Length; i++)
             {
-                if (input_numbers_line_one[i] == input_numbers_line_two[i] && input_numbers_line_one[i]  == 1)
+                if (input_numbers_line_one[i] == input_numbers_line_two[i] && input_numbers_line_one[i] == 1)
                 {
                     counter++;
                 }
@@ -36,7 +36,7 @@ namespace quera
     }
 }
 /*
-https://quera.org/problemset/20249
+https://quera.org/problemset/218361
 
 cheat code:
 
