@@ -21,7 +21,7 @@ namespace quera
             int[] shokolatkor = new int[4];
             int counter = 0;
 
-            for (int i = 0; i < 200; i = i+2 , i = i % 4  )
+            for (int i = 0; i < 200; i = i + 2, i = i % 4)
             {
                 if (input_numbers[i] == 0)
                 {
