@@ -17,21 +17,21 @@ namespace quera
         {
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             int wheel_number = int.Parse(Console.ReadLine()); // get a number from console
-            string input_numbers_line_one = Console.ReadLine(); 
+            string input_numbers_line_one = Console.ReadLine();
             int counter = 0;
 
             for (int i = 0; i < wheel_number; i++)
-                {
+            {
                 string input_numbers_line_two = Console.ReadLine();
                 for (int j = 0; j < input_numbers_line_two.Length; j++)
+                {
+                    if (input_numbers_line_two[j] == input_numbers_line_one[i])
                     {
-                        if (input_numbers_line_two[j] == input_numbers_line_one[i])
-                        {
-                            if ( j > (input_numbers_line_two.Length/2)) {  counter += (input_numbers_line_two.Length - j); } 
-                                else { counter += j; }
-                            break;
-                        }
-                        
+                        if (j > (input_numbers_line_two.Length / 2)) { counter += (input_numbers_line_two.Length - j); }
+                        else { counter += j; }
+                        break;
+                    }
+
 
                 }
 
