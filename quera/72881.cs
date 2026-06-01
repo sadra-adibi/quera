@@ -15,18 +15,18 @@ namespace quera
     {
         static void Main(string[] args)
         {
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             double[] input_numbers = Array.ConvertAll(Console.ReadLine().Split(), double.Parse);// get a line of numbers from console
 
             if (input_numbers[1] * input_numbers[0] <= input_numbers[2])
-                {
-                    Console.WriteLine("Kafie!");
-                }
-                else
-                {
-                    Console.WriteLine("Na! yeki bayad bere sabzi bekhare");
-                }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            {
+                Console.WriteLine("Kafie!");
+            }
+            else
+            {
+                Console.WriteLine("Na! yeki bayad bere sabzi bekhare");
+            }
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         }
     }
 }
