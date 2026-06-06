@@ -18,7 +18,7 @@ namespace quera
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-       
+
             string[] firstLine = Console.ReadLine().Split(' ');
             int number_of_input = int.Parse(firstLine[0]);
             string t = firstLine[1];
