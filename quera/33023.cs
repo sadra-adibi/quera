@@ -40,10 +40,10 @@ namespace quera
             int count = 0;
 
 
-            for (int i = 1; i < n - 1; i++)        
+            for (int i = 1; i < n - 1; i++)
             {
 
-                for (int j = 1; j < m - 1; j++)   
+                for (int j = 1; j < m - 1; j++)
                 {
 
                     int current = table[i, j];
